@@ -13,5 +13,7 @@
 - Do `npm install` in root directory
 - Set necessary environment variables (MONGO_URI , KEY and SECRET) 
 Here KEY and SECRET are Razorpay API key and secret that you will get on the dashboard page of Razorpay
+- Once you are login, you will receive a token, you need to update the token variables present in `standard.html` with the new token. This we need to do manually in order to experience the full functioning of frontend and backend integration of Razorpay. Once this backend gets its frontend part, we no longer need to do this. 
 - Start the app by running `npm start`
-This will start the app on `http://localhost:5000/`.
+This will start the app smoothly on `http://localhost:5000/`.
+
