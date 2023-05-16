@@ -8,3 +8,10 @@
 
 
 4) **Subscription Validity** -- route for checking the validity of a subscribed user for 6 months
+
+**Note** : To use the app in your local environment, you need to do following things 
+- Do `npm install` in root directory
+- Set necessary environment variables (MONGO_URI , KEY and SECRET) 
+Here KEY and SECRET are Razorpay API key and secret that you will get on the dashboard page of Razorpay
+- Start the app by running `npm start`
+This will start the app on `http://localhost:5000/`.
